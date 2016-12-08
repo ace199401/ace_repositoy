@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/title_tally"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/balance"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/expand_back"
+        android:text="0.0元"
+        android:paddingLeft="60dp"
+        android:gravity="center_vertical"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/detail"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/income_expand_detial"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/expand"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:background="@drawable/expand"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/income"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:textSize="18sp" 
+            android:background="@drawable/income"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/title_register"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_account"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_passowrd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/register_button" />
+
+</LinearLayout>

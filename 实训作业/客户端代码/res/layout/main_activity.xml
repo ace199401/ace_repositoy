@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_backgroud"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_account"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_input"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/user_account"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#00000000" 
+                android:hint="请输入帐号"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_passowrd"
+            android:textSize="20sp" />
+
+       <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_input"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#00000000" 
+                android:hint="请输入密码"
+                android:password="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/text_login" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/text_register" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>action.Login</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>action.Register</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>WriteDairy</servlet-name>
+		<servlet-class>action.WriteDairy</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetDairy</servlet-name>
+		<servlet-class>action.GetDairy</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetTally</servlet-name>
+		<servlet-class>action.GetTally</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ChangeBalance</servlet-name>
+		<servlet-class>action.ChangeBalance</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ChangePassword</servlet-name>
+		<servlet-class>action.ChangePassword</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteDairy</servlet-name>
+		<servlet-class>action.DeleteDairy</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DeleteTally</servlet-name>
+		<servlet-class>action.DeleteTally</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>WriteDairy</servlet-name>
+		<url-pattern>/WriteDairy</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetDairy</servlet-name>
+		<url-pattern>/GetDairy</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetTally</servlet-name>
+		<url-pattern>/GetTally</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangeBalance</servlet-name>
+		<url-pattern>/ChangeBalance</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangePassword</servlet-name>
+		<url-pattern>/ChangePassword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteDairy</servlet-name>
+		<url-pattern>/DeleteDairy</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteTally</servlet-name>
+		<url-pattern>/DeleteTally</url-pattern>
+	</servlet-mapping>
+</web-app>
